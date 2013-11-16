@@ -1,0 +1,30 @@
+{
+  "name": "passport-foodlogiq",
+  "version": "0.5.6",
+  "dependencies": {
+    "pkginfo": {
+      "version": "0.2.3",
+      "from": "pkginfo@0.2.x"
+    },
+    "passport-oauth": {
+      "version": "0.1.15",
+      "from": "passport-oauth@~0.1.2",
+      "dependencies": {
+        "passport": {
+          "version": "0.1.17",
+          "from": "passport@~0.1.1",
+          "dependencies": {
+            "pause": {
+              "version": "0.0.1",
+              "from": "pause@0.0.1"
+            }
+          }
+        },
+        "oauth": {
+          "version": "0.9.10",
+          "from": "oauth@0.9.x"
+        }
+      }
+    }
+  }
+}
