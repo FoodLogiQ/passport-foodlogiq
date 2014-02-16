@@ -1,6 +1,6 @@
 {
   "name": "passport-foodlogiq",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "dependencies": {
     "pkginfo": {
       "version": "0.2.3",
