@@ -1,8 +1,15 @@
 {
   "name": "passport-foodlogiq",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "FoodLogiQ authentication strategy for Passport.",
-  "keywords": ["passport", "foodlogiq", "auth", "authn", "authentication", "identity"],
+  "keywords": [
+    "passport",
+    "foodlogiq",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/FoodLogiQ/passport-foodlogiq.git"
@@ -14,19 +21,22 @@
     "name": "Shaun Pack",
     "email": "spack@foodlogiq.com"
   },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT"
-  } ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "./lib/passport-foodlogiq",
   "dependencies": {
-    "pkginfo": "0.2.x",
-    "passport-oauth": "~0.1.2"
+    "passport-oauth2": "^1.1.2",
+    "pkginfo": "^0.2.3"
   },
   "devDependencies": {
     "vows": "0.6.x"
   },
-  "scripts": {
-  },
-  "engines": { "node": ">= 0.4.0" }
+  "scripts": {},
+  "engines": {
+    "node": ">= 0.4.0"
+  }
 }
