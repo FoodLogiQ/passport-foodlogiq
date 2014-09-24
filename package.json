@@ -1,6 +1,6 @@
 {
   "name": "passport-foodlogiq",
-  "version": "0.6.2",
+  "version": "0.7.0",
   "description": "FoodLogiQ authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -30,7 +30,8 @@
   "main": "./lib/passport-foodlogiq",
   "dependencies": {
     "passport-oauth2": "^1.1.2",
-    "pkginfo": "^0.2.3"
+    "pkginfo": "^0.2.3",
+    "winston": "^0.8.0"
   },
   "devDependencies": {
     "vows": "0.6.x"
